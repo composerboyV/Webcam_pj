@@ -1,0 +1,88 @@
+# ===========================================
+# C++ OpenCV 웹캠 객체 추적 프로젝트
+# Git에서 제외할 파일들
+# ===========================================
+
+# 🔧 빌드 결과물
+build/
+cmake_build_debug/
+cmake_build_release/
+
+# 💾 컴파일된 파일들
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# 📄 의존성 및 임시 파일들
+*.o.d
+*.d
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+*.swo
+
+# 🛠️ IDE 및 에디터 설정
+.vscode/
+.idea/
+*.code-workspace
+.vs/
+*.vcxproj.user
+*.sln.docstates
+
+# 🐧 Linux 임시 파일들
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 🍎 macOS 파일들
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 🪟 Windows 파일들
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 🔍 로그 파일들
+*.log
+logs/
+debug.txt
+
+# 📷 테스트 이미지/영상 (용량이 클 수 있음)
+test_images/
+test_videos/
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+*.bmp
+# 단, 필요한 샘플 이미지는 제외
+!sample/
+!data/sample_images/
+
+# 🔐 설정 파일들 (보안상 제외)
+config.ini
+settings.json
+*.key
+*.pem
+
+# 📦 패키지 관리
+node_modules/
+.npm
+.yarn/
+
+# 🧪 테스트 결과
+test_results/
+coverage/
