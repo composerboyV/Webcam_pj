@@ -166,7 +166,6 @@ faces = face_cascade.detectMultiScale(
     3,              # 최소 이웃 수
     minSize=(30,30) # 최소 얼굴 크기
 )
----
 
 ## 👨‍💻 작성자
 
